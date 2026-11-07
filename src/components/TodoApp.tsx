@@ -70,16 +70,13 @@ export default function TodoApp() {
   const remaining = todos.filter((todo) => !todo.completed).length;
 
   return (
-    <div className="mx-auto w-full max-w-lg">
+    <div className="mx-auto w-full max-md:w-full">
       <header className="mb-8">
-        <p className="mb-2 text-sm font-medium tracking-[0.2em] text-sky-800 uppercase">
-          Next.js
-        </p>
         <h1 className="font-display text-5xl font-semibold tracking-tight text-slate-900 sm:text-6xl">
-          Todos
+          Ticksy
         </h1>
         <p className="mt-3 text-base text-slate-600">
-          Capture tasks, check them off, and keep going.
+        Every tick brings progress.
         </p>
       </header>
 
